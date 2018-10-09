@@ -61,7 +61,7 @@ class Header extends Component {
                     <a href="client-dashboard.html" className="dropdown-item">
                       Dashboard
                     </a>
-                    <Link to="/list" className="dropdown-item">
+                    <Link to="/writers/page/1" className="dropdown-item">
                       Writter
                     </Link>
                     <a href="client-job.html" className="dropdown-item">

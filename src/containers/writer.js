@@ -1,7 +1,10 @@
 import React from 'react';
 import data_writer from '../data/data_writer';
 import avarta from '../assets/img/wt1.png';
-export default class Writer extends React.Component {
+import { connect } from 'react-redux';
+
+
+class Writer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -12,8 +15,8 @@ export default class Writer extends React.Component {
     this.setState({ data: data_writer });
   }
   render() {
-    return this.state.data.map(data => (
-      <div className="col-lg-6">
+    return this.props.data.writer.map(data => (
+      <div className="col-lg-6" key={data.id}>
         <div className="box applicant">
           <h4>{data.name}</h4>
           <a
@@ -55,28 +58,28 @@ export default class Writer extends React.Component {
         </div>
         <div
           id="coverletter-modal"
-          tabindex="-1"
+          tabIndex="-1"
           role="dialog"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
-          class="modal fade"
+          className="modal fade"
         >
-          <div role="document" class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title">
+          <div role="document" className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h4 className="modal-title">
                   Demo Detail
                   <button
                     type="button"
                     data-dismiss="modal"
                     aria-label="Close"
-                    class="close"
+                    className="close"
                   >
                     <span aria-hidden="true">×</span>
                   </button>
                 </h4>
               </div>
-              <div class="modal-body">
+              <div className="modal-body">
                 <p>
                   Here could be the applicant's cover letter. Pellentesque
                   habitant morbi tristique senectus et netus et malesuada fames
@@ -107,3 +110,8 @@ export default class Writer extends React.Component {
     ));
   }
 }
+
+const mapDataWriterToProps = (state) => ({
+  data: state.Page
+})
+export default connect(mapDataWriterToProps)(Writer);
