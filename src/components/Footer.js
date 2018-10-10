@@ -154,20 +154,6 @@ const Footer = () => (
           </div>
         </div>
       </div>
-      {/* <div className="footer__copyright">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6 text-md-left text-center">
-              <p>&copy;2017 Best company</p>
-            </div>
-            <div className="col-md-6 text-md-right text-center">
-              <p className="credit">
-                Theme by <a href="https://ondrejsvestka.cz/">Ondrej Svestka</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </footer>
   </div>
 );

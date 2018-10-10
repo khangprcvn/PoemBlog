@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../assets/css/style.default.css';
-import logo from '../assets/img/logo.png';
-import logo_small from '../assets/img/logo.png';
+import logo from '../assets/img/logo1.png';
+import logo_small from '../assets/img/logo1.png';
 import { Link } from 'react-router-dom';
 class Header extends Component {
   render() {
@@ -9,17 +9,23 @@ class Header extends Component {
       <header className="header">
         <nav className="navbar navbar-expand-lg">
           <div className="container">
-            <a href="index-2.html" className="navbar-brand">
+            <Link to="/" className="navbar-brand">
               <img
                 src={logo}
-                width="200px"
+                width="100px"
                 height="80px"
                 alt="logo"
                 className="d-none d-lg-block"
               />
-              <img src={logo_small} alt="logo" className="d-block d-lg-none" />
+              <img
+                src={logo_small}
+                alt="logo"
+                width="100px"
+                height="80px"
+                className="d-block d-lg-none"
+              />
               <span className="sr-only">Go to homepage</span>
-            </a>
+            </Link>
             <button
               type="button"
               data-toggle="collapse"
