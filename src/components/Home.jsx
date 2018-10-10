@@ -104,9 +104,10 @@ class Header extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="contact.html" className="nav-link">
-                    Contact
-                  </a>
+                  <Link to="/contact" className="nav-link">
+                    Contact <span className="sr-only">(current)</span>
+                  </Link>
+                  
                 </li>
                 <li className="nav-item dropdown">
                   <a
