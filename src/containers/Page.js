@@ -11,14 +11,14 @@ class Page extends React.Component {
     for (let i = 1; i <= data.length; i++) {
       let link = `/writers/page/${i}`;
       page.push(
-          <Link
-            to={link}
-            className="page-link"
-            key={i}
-            onClick={() => this.clickPage(i)}
-          >
-            {i}
-          </Link>
+        <Link
+          to={link}
+          className="page-link"
+          key={i}
+          onClick={() => this.clickPage(i)}
+        >
+          {i}
+        </Link>
       );
     }
     return page;
@@ -41,7 +41,8 @@ class Page extends React.Component {
                   <span className="sr-only">Previous</span>
                 </a>
               </li>
-              {/* <li className="page-item active" /> */}
+              <li className="page-item active" />
+
               {this.createPage()}
               <li className="page-item">
                 <a href="#" aria-label="Next" className="page-link">

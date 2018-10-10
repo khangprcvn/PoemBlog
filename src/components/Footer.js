@@ -39,7 +39,7 @@ const Footer = () => (
                   data-animate-hover="pulse"
                   className="external gplus"
                 >
-                  <i class="fab fa-google-plus"></i>
+                  <i className="fab fa-google-plus"></i>
                 </a>
                 <a
                   href="#"
