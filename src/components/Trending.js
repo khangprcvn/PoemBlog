@@ -1,332 +1,112 @@
 import React from 'react';
-import logo from '../assets/img/company-1.png';
+import logo from '../assets/img/hot_poem.png';
 const Trending = () => (
   <section>
-    <div class="container">
-      <h4 class="heading">Các thể loại thơ</h4>
-      <div class="job-listing job-listing--featured ">
-        <div class="row">
-          <div class="col-md-12 col-lg-6">
-            <div class="row">
-              <div class="col-2">
-                <img
-                  src={logo}
-                  alt="LoremIpsum "
-                  class="img-fluid"
-                />
+    <div className="container">
+      <h4 className="heading">Các thể loại thơ</h4>
+      <div className="job-listing job-listing--featured ">
+        <div className="row">
+          <div className="col-md-12 col-lg-6">
+            <div className="row">
+              <div className="col-2">
+                <img src={logo} alt="LoremIpsum " className="img-fluid" />
               </div>
-              <div class="col-10">
-                <h4 class="job__title">
-                  <a href="detail.html">Webdesigner</a>
+              <div className="col-10">
+                <h4 className="job__title">
+                  <a href="detail.html">Tình yêu</a>
                 </h4>
-                <p class="job__company">LoremIpsum</p>
+                {/* <p className="job__company">LoremIpsum</p> */}
               </div>
             </div>
           </div>
-          <div class="col-10 col-md-3 col-lg-2 ml-auto">
-            <i class="fa fa-map-marker job__location" />
-            San Francisco
+          <div className="col-10 col-md-3 col-lg-2 ml-auto">
+            <i className="fa fa-heart" /> 14000 lượt xem
           </div>
-          <div class="col-10 col-md-3 col-lg-3 ml-auto">
+          <div className="col-10 col-md-3 col-lg-3 ml-auto">
             <p>Posted 5 days ago</p>
           </div>
-          <div class="col-sm-12 col-md-2 col-lg-1">
-            <div class="job__star">
+          <div className="col-sm-12 col-md-2 col-lg-1">
+            <div className="job__star">
               <a
                 href="#"
                 data-toggle="tooltip"
                 data-placement="top"
                 title="Save to favourites"
-                class="job__star__link"
+                className="job__star__link"
               >
-                <i class="fa fa-star" />
+                <i className="fa fa-star" />
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="job-listing  ">
-        <div class="row">
-          <div class="col-md-12 col-lg-6">
-            <div class="row">
-              <div class="col-2">
-                <img
-                  src={logo}
-                  alt="Bootstrapious "
-                  class="img-fluid"
-                />
+      <div className="job-listing  ">
+        <div className="row">
+          <div className="col-md-12 col-lg-6">
+            <div className="row">
+              <div className="col-2">
+                <img src={logo} alt="Bootstrapious " className="img-fluid" />
               </div>
-              <div class="col-10">
-                <h4 class="job__title">
-                  <a href="detail.html">Front End developer</a>
+              <div className="col-10">
+                <h4 className="job__title">
+                  <a href="detail.html">Cách mạng</a>
                 </h4>
-                <p class="job__company">Bootstrapious</p>
+                {/* <p className="job__company">Bootstrapious</p> */}
               </div>
             </div>
           </div>
-          <div class="col-10 col-md-3 col-lg-2 ml-auto">
-            <i class="fa fa-map-marker job__location" />
-            Palo Alto
+          <div className="col-10 col-md-3 col-lg-2 ml-auto">
+            <i className="fa fa-heart" /> 13000 lượt xem
           </div>
-          <div class="col-10 col-md-3 col-lg-3 ml-auto">
+          <div className="col-10 col-md-3 col-lg-3 ml-auto">
             <p>Posted 10 days ago</p>
           </div>
-          <div class="col-sm-12 col-md-2 col-lg-1">
-            <div class="job__star">
+          <div className="col-sm-12 col-md-2 col-lg-1">
+            <div className="job__star">
               <a
                 href="#"
                 data-toggle="tooltip"
                 data-placement="top"
                 title="Save to favourites"
-                class="job__star__link"
+                className="job__star__link"
               >
-                <i class="fa fa-star" />
+                <i className="fa fa-star" />
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="job-listing  ">
-        <div class="row">
-          <div class="col-md-12 col-lg-6">
-            <div class="row">
-              <div class="col-2">
-                <img
-                  src={logo}
-                  alt="Ipsioou "
-                  class="img-fluid"
-                />
+      <div className="job-listing  ">
+        <div className="row">
+          <div className="col-md-12 col-lg-6">
+            <div className="row">
+              <div className="col-2">
+                <img src={logo} alt="Ipsioou " className="img-fluid" />
               </div>
-              <div class="col-10">
-                <h4 class="job__title">
-                  <a href="detail.html">Webdesigner</a>
+              <div className="col-10">
+                <h4 className="job__title">
+                  <a href="detail.html">Học sinh</a>
                 </h4>
-                <p class="job__company">Ipsioou</p>
+                {/* <p className="job__company">Ipsioou</p> */}
               </div>
             </div>
           </div>
-          <div class="col-10 col-md-3 col-lg-2 ml-auto">
-            <i class="fa fa-map-marker job__location" />
-            San Francisco
+          <div className="col-10 col-md-3 col-lg-2 ml-auto">
+            <i className="fa fa-heart" /> {' '} 11000 lượt xem
           </div>
-          <div class="col-10 col-md-3 col-lg-3 ml-auto">
+          <div className="col-10 col-md-3 col-lg-3 ml-auto">
             <p>Posted 5 days ago</p>
           </div>
-          <div class="col-sm-12 col-md-2 col-lg-1">
-            <div class="job__star">
+          <div className="col-sm-12 col-md-2 col-lg-1">
+            <div className="job__star">
               <a
                 href="#"
                 data-toggle="tooltip"
                 data-placement="top"
                 title="Save to favourites"
-                class="job__star__link"
+                className="job__star__link"
               >
-                <i class="fa fa-star" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="job-listing  ">
-        <div class="row">
-          <div class="col-md-12 col-lg-6">
-            <div class="row">
-              <div class="col-2">
-                <img
-                  src={logo}
-                  alt="ShareBoardd "
-                  class="img-fluid"
-                />
-              </div>
-              <div class="col-10">
-                <h4 class="job__title">
-                  <a href="detail.html">Team Leader</a>
-                </h4>
-                <p class="job__company">ShareBoardd</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-10 col-md-3 col-lg-2 ml-auto">
-            <i class="fa fa-map-marker job__location" />
-            Palo Alto
-          </div>
-          <div class="col-10 col-md-3 col-lg-3 ml-auto">
-            <p>Posted 10 days ago</p>
-          </div>
-          <div class="col-sm-12 col-md-2 col-lg-1">
-            <div class="job__star">
-              <a
-                href="#"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Save to favourites"
-                class="job__star__link"
-              >
-                <i class="fa fa-star" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="job-listing">
-        <div class="row">
-          <div class="col-md-12 col-lg-6">
-            <div class="row">
-              <div class="col-2">
-                <img
-                  src={logo}
-                  alt="ShareBoardd "
-                  class="img-fluid"
-                />
-              </div>
-              <div class="col-10">
-                <h4 class="job__title">
-                  <a href="detail.html">Software Engineer</a>
-                </h4>
-                <p class="job__company">ShareBoardd</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-10 col-md-3 col-lg-2 ml-auto">
-            <i class="fa fa-map-marker job__location" />
-            Palo Alto
-          </div>
-          <div class="col-10 col-md-3 col-lg-3 ml-auto">
-            <p>Posted 14 days ago</p>
-          </div>
-          <div class="col-sm-12 col-md-2 col-lg-1">
-            <div class="job__star">
-              <a
-                href="#"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Save to favourites"
-                class="job__star__link"
-              >
-                <i class="fa fa-star" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <div class="job-listing  ">
-        <div class="row">
-          <div class="col-md-12 col-lg-6">
-            <div class="row">
-              <div class="col-2">
-                <img
-                  src={logo}
-                  alt="Bootstrapious "
-                  class="img-fluid"
-                />
-              </div>
-              <div class="col-10">
-                <h4 class="job__title">
-                  <a href="detail.html">Front End developer</a>
-                </h4>
-                <p class="job__company">Bootstrapious</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-10 col-md-3 col-lg-2 ml-auto">
-            <i class="fa fa-map-marker job__location" />
-            Palo Alto
-          </div>
-          <div class="col-10 col-md-3 col-lg-3 ml-auto">
-            <p>Posted 10 days ago</p>
-          </div>
-          <div class="col-sm-12 col-md-2 col-lg-1">
-            <div class="job__star">
-              <a
-                href="#"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Save to favourites"
-                class="job__star__link"
-              >
-                <i class="fa fa-star" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* <div class="job-listing">
-        <div class="row">
-          <div class="col-md-12 col-lg-6">
-            <div class="row">
-              <div class="col-2">
-                <img
-                  src={logo}
-                  alt="Ipsioou "
-                  class="img-fluid"
-                />
-              </div>
-              <div class="col-10">
-                <h4 class="job__title">
-                  <a href="detail.html">Webdesigner</a>
-                </h4>
-                <p class="job__company">Ipsioou</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-10 col-md-3 col-lg-2 ml-auto">
-            <i class="fa fa-map-marker job__location" />
-            San Francisco
-          </div>
-          <div class="col-10 col-md-3 col-lg-3 ml-auto">
-            <p>Posted 5 days ago</p>
-          </div>
-          <div class="col-sm-12 col-md-2 col-lg-1">
-            <div class="job__star">
-              <a
-                href="#"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Save to favourites"
-                class="job__star__link"
-              >
-                <i class="fa fa-star" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      <div class="job-listing  job-listing--last">
-        <div class="row">
-          <div class="col-md-12 col-lg-6">
-            <div class="row">
-              <div class="col-2">
-                <img
-                  src={logo}
-                  alt="ShareBoardd "
-                  class="img-fluid"
-                />
-              </div>
-              <div class="col-10">
-                <h4 class="job__title">
-                  <a href="detail.html">Team Leader</a>
-                </h4>
-                <p class="job__company">ShareBoardd</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-10 col-md-3 col-lg-2 ml-auto">
-            <i class="fa fa-map-marker job__location" />
-            Palo Alto
-          </div>
-          <div class="col-10 col-md-3 col-lg-3 ml-auto">
-            <p>Posted 10 days ago</p>
-          </div>
-          <div class="col-sm-12 col-md-2 col-lg-1">
-            <div class="job__star">
-              <a
-                href="#"
-                data-toggle="tooltip"
-                data-placement="top"
-                title="Save to favourites"
-                class="job__star__link"
-              >
-                <i class="fa fa-star" />
+                <i className="fa fa-star" />
               </a>
             </div>
           </div>
