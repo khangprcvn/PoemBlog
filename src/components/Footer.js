@@ -72,7 +72,7 @@ const Footer = () => (
                       type="button"
                       className="btn btn-default input-group-text"
                     >
-                      <i className="fab fa-google-plus-g"></i>
+                      <i className="fa fa-paper-plane"></i>
                     </button>
                   </div>
                 </div>
