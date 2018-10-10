@@ -32,24 +32,24 @@ const Footer = () => (
                   data-animate-hover="pulse"
                   className="external facebook"
                 >
-                  <i className="fa-facebook" />
+                  <i className="fab fa-facebook-f" />
                 </a>
                 <a
                   href="#"
                   data-animate-hover="pulse"
                   className="external gplus"
                 >
-                  <i className="fa fa-google-plus" />
+                  <i class="fab fa-google-plus"></i>
                 </a>
                 <a
                   href="#"
                   data-animate-hover="pulse"
                   className="external twitter"
                 >
-                  <i className="fa fa-twitter" />
+                  <i className="fab fa-twitter" />
                 </a>
                 <a href="#" data-animate-hover="pulse" className="email">
-                  <i className="fa fa-envelope" />
+                  <i className="far fa-envelope" />
                 </a>
               </p>
             </div>
@@ -72,7 +72,7 @@ const Footer = () => (
                       type="button"
                       className="btn btn-default input-group-text"
                     >
-                      <i className="fa fa-send" />
+                      <i className="fab fa-google-plus-g"></i>
                     </button>
                   </div>
                 </div>

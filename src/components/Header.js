@@ -43,9 +43,9 @@ class Header extends Component {
               className="collapse navbar-collapse"
             >
               <ul className="navbar-nav ml-auto">
-                <li className="nav-item active">
+                <li className="nav-item">
                   <Link to="/" className="nav-link">
-                    Home <span className="sr-only">(current)</span>
+                    Trang chủ <span className="sr-only">(current)</span>
                   </Link>
                 </li>
 
@@ -58,20 +58,20 @@ class Header extends Component {
                     aria-expanded="false"
                     className="nav-link dropdown-toggle"
                   >
-                    Client Zone
+                    Chức năng
                   </a>
                   <div aria-labelledby="clientZone" className="dropdown-menu">
-                    <a href="client-register.html" className="dropdown-item">
+                    {/* <a href="client-register.html" className="dropdown-item">
                       Login or Register
                     </a>
                     <a href="client-dashboard.html" className="dropdown-item">
                       Dashboard
-                    </a>
+                    </a> */}
                     <Link to="/writers/page/1" className="dropdown-item">
-                      Writers
+                      Tác giả
                     </Link>
                     <a href="client-job.html" className="dropdown-item">
-                      Post a new job
+                      Đăng thơ
                     </a>
                   </div>
                 </li>
@@ -84,15 +84,15 @@ class Header extends Component {
                     aria-expanded="false"
                     className="nav-link dropdown-toggle"
                   >
-                    Pages
+                    Chi tiết
                   </a>
                   <div aria-labelledby="pages" className="dropdown-menu">
-                    <a href="index.html" className="dropdown-item">
+                    {/* <a href="index.html" className="dropdown-item">
                       Home
                     </a>
                     <a href="contact.html" className="dropdown-item">
                       Contact
-                    </a>
+                    </a> */}
                     <a href="blog.html" className="dropdown-item">
                       Blog Listing
                     </a>
@@ -111,7 +111,7 @@ class Header extends Component {
                 </li> */}
                 <li className="nav-item">
                   <Link to="/contact" className="nav-link">
-                    Contact <span className="sr-only">(current)</span>
+                    Liên hệ <span className="sr-only">(current)</span>
                   </Link>
                   
                 </li>
@@ -122,7 +122,7 @@ class Header extends Component {
                     className="btn navbar-btn btn-outline-light mb-5 mb-lg-0"
                   >
                     <i className="fa fa-sign-in" />
-                    Login
+                    Đăng nhập
                   </a>
                 </li>
               </ul>
