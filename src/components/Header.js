@@ -104,11 +104,11 @@ class Header extends Component {
                     </a>
                   </div>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a href="about.html" className="nav-link">
                     About Us
                   </a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link to="/contact" className="nav-link">
                     Contact <span className="sr-only">(current)</span>
