@@ -62,7 +62,7 @@ class Header extends Component {
                       Dashboard
                     </a>
                     <Link to="/writers/page/1" className="dropdown-item">
-                      Writter
+                      Writers
                     </Link>
                     <a href="client-job.html" className="dropdown-item">
                       Post a new job

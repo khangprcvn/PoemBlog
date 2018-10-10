@@ -36,9 +36,9 @@ const HeaderWriter = () => (
           <div id="navbarSupportedContent" className="collapse navbar-collapse">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a href="category.html" className="nav-link">
+                <Link to="/" className="nav-link">
                   Home <span className="sr-only">(current)</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a href="about.html" className="nav-link">

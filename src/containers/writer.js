@@ -1,19 +1,8 @@
 import React from 'react';
-import data_writer from '../data/data_writer';
 import avarta from '../assets/img/wt1.png';
 import { connect } from 'react-redux';
 
-
 class Writer extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: []
-    };
-  }
-  componentWillMount() {
-    this.setState({ data: data_writer });
-  }
   render() {
     return this.props.data.writer.map(data => (
       <div className="col-lg-6" key={data.id}>
@@ -42,19 +31,16 @@ class Writer extends React.Component {
             <i className="fa fa-archive" />
             archive
           </a>
-          {/* <p>
-                    <span className="badge badge-info">Applied 21/10/2017</span>{' '}
-                    <span className="badge badge-success">
-                      Contacted 30/12/2017
-                    </span>
-                  </p> */}
+          <p>
+            <span className="badge badge-info">Tham gia:05/08/2018</span>{' '}
+            <span className="badge badge-success">Bài gần nhất: 06/09/2018</span>
+          </p>
           <div className="d-flex justify-content-between">
             <p className="intro">Thể loại : {data.category}</p>
             <div className="image">
               <img src={avarta} alt="" className="img-fluid rounded-circle" />
             </div>
           </div>
-          
         </div>
         <div
           id="coverletter-modal"
@@ -111,7 +97,7 @@ class Writer extends React.Component {
   }
 }
 
-const mapDataWriterToProps = (state) => ({
+const mapDataWriterToProps = state => ({
   data: state.Page
-})
+});
 export default connect(mapDataWriterToProps)(Writer);
