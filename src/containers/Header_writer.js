@@ -40,11 +40,11 @@ const HeaderWriter = () => (
                   Home <span className="sr-only">(current)</span>
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a href="about.html" className="nav-link">
                   About Us
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item dropdown">
                 <a
                   id="pages"
