@@ -1,16 +1,16 @@
 import React from 'react';
-import Contact_Information from './Contact_Information.jsx';
-import Contact_Form from './Contact_Form';
+import Information from './Information';
+import Form from './Form.js';
 import Header from '../Header';
-class Contact extends React.Component {
+
+export default class Contact extends React.Component {
   render() {
     return (
       <div>
         <Header />
-        <Contact_Information />
-        <Contact_Form />
+        <Information />
+        <Form /> 
       </div>
     );
   }
 }
-export default Contact;

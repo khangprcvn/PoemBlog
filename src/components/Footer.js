@@ -56,7 +56,7 @@ const Footer = () => (
             <div className="col-lg-4 col-md-12 mb-5">
               <h4 className="h5">News and Updates</h4>
               <p>
-                Sign up to get weekly portion of fresh jobs and news from us.
+                Sign up to get weekly portion of fresh poems and news from us.
               </p>
               <form className="footer__newsletter">
                 <div className="input-group">

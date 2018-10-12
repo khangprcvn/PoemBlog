@@ -4,7 +4,7 @@ import cm_bg from '../assets/img/cm_bg.jpg';
 const SectionHome = () => (
   <section className="bg-light-gray">
     <div className="container">
-      <h3 className="heading">Thể loại được xem nhiều</h3>
+      <h3 className="heading">Các bài nổi bật</h3>
       <div className="row featured align-items-stretch">
         <div className="col-lg-4 mb-5 mb-lg-0">
           <div className="box-image-text full-height">
@@ -29,7 +29,7 @@ const SectionHome = () => (
             </div>
             <div className="content">
               <h5>
-                <a href="detail.html">Tình yêu</a>
+                <a href="detail.html">Bài không tên 1</a>
               </h5>
               <p className="featured__details">
                 {' '}
@@ -68,7 +68,7 @@ const SectionHome = () => (
             </div>
             <div className="content">
               <h5>
-                <a href="detail.html">Cách mạng</a>
+                <a href="detail.html">Bài không tên 2</a>
               </h5>
               <p className="featured__details">
                 {' '}
@@ -107,7 +107,7 @@ const SectionHome = () => (
             </div>
             <div className="content">
               <h5>
-                <a href="detail.html">Đường Luật</a>
+                <a href="detail.html">Bài không tên 3</a>
               </h5>
               <p className="featured__details">
                 {' '}

@@ -3,7 +3,7 @@ import logo from '../assets/img/hot_poem.png';
 const Trending = () => (
   <section>
     <div className="container">
-      <h4 className="heading">Các thể loại thơ</h4>
+      <h4 className="heading">Các thể loại thơ nổi bật</h4>
       <div className="job-listing job-listing--featured ">
         <div className="row">
           <div className="col-md-12 col-lg-6">
