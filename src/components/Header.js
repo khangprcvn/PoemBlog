@@ -3,7 +3,21 @@ import '../assets/css/style.default.css';
 import logo from '../assets/img/logo1.png';
 import logo_small from '../assets/img/logo1.png';
 import { Link } from 'react-router-dom';
+import Modal from 'react-modal';
+import Login_Modal from './login/Login_Modal.jsx';
 class Header extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      modalIsOpen : false
+    };
+  }
+  openModal = () => {
+    console.log("ahihi");
+    this.setState({
+      modalIsOpen : true
+    });
+  }
   render() {
     return (
       <header className="header">
@@ -70,9 +84,9 @@ class Header extends Component {
                     <Link to="/writers/page/1" className="dropdown-item">
                       Tác giả
                     </Link>
-                    <a href="client-job.html" className="dropdown-item">
+                    <Link to="post_poem" className="dropdown-item">
                       Đăng thơ
-                    </a>
+                    </Link>
                   </div>
                 </li>
                 <li className="nav-item dropdown">
@@ -124,6 +138,20 @@ class Header extends Component {
                     <i className="fa fa-sign-in" />
                     Đăng nhập
                   </a>
+                  {/* <button
+                    data-toggle="modal"
+                    className="btn navbar-btn btn-outline-light mb-5 mb-lg-0"
+                    onClick={this.openModal}
+                  >
+                    <i className="fa fa-sign-in" />
+                    Đăng nhập
+                  </button> */}
+                  {/* <Modal isOpen={this.state.modalIsOpen}
+                    { Login_Modal }
+                  /> */}
+                  <Link to="/login" className="fa fa-sign-in">
+                    Đăng Nhập
+                  </Link>
                 </li>
               </ul>
             </div>
