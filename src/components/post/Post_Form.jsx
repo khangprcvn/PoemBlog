@@ -8,7 +8,7 @@ class Post_Form extends Component {
         super(props);
         this.state = {
             name : '',
-            type : 0,
+            type : '',
             author : '',
             desc : '',
             picture : '',
@@ -77,9 +77,9 @@ class Post_Form extends Component {
                                                 name="type"
                                                 onChange={this.onChange}
                                             >
-                                                <option value={0}>Tình yêu</option>
-                                                <option value={1}>Cách mạng</option>
-                                                <option value={2}>Đường luật</option>
+                                                <option value={'Tình yêu'}>Tình yêu</option>
+                                                <option value={'Cách mạng'}>Cách mạng</option>
+                                                <option value={'Đường luật'}>Đường luật</option>
                                             </select>
                                         </div>
                                     </div>
