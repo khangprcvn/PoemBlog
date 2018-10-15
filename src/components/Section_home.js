@@ -1,6 +1,5 @@
 import React from 'react';
 import love_bg from '../assets/img/love_bg.jpg';
-import cm_bg from '../assets/img/cm_bg.jpg';
 const SectionHome = () => (
   <section className="bg-light-gray">
     <div className="container">

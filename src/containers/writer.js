@@ -9,7 +9,6 @@ class Writer extends React.Component {
         <div className="box applicant">
           <h4>{data.name}</h4>
           <a
-            href="#"
             data-toggle="modal"
             data-target="#coverletter-modal"
             className="btn btn-outline-white-secondary btn-sm"
@@ -18,7 +17,6 @@ class Writer extends React.Component {
             See Detail
           </a>
           <a
-            href="#"
             data-toggle="modal"
             data-target="#contact-modal"
             className="btn btn-outline-white-secondary btn-sm"
@@ -26,7 +24,7 @@ class Writer extends React.Component {
             <i className="fa fa-envelope" />
             Contact{' '}
           </a>
-          <a href="#" className="btn btn-outline-white-secondary btn-sm">
+          <a className="btn btn-outline-white-secondary btn-sm">
             {' '}
             <i className="fa fa-archive" />
             archive

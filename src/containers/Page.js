@@ -36,7 +36,7 @@ class Page extends React.Component {
           >
             <ul className="pagination">
               <li className="page-item">
-                <a href="#" aria-label="Previous" className="page-link">
+                <a aria-label="Previous" className="page-link">
                   <span aria-hidden="true">«</span>
                   <span className="sr-only">Previous</span>
                 </a>
@@ -45,7 +45,7 @@ class Page extends React.Component {
 
               {this.createPage()}
               <li className="page-item">
-                <a href="#" aria-label="Next" className="page-link">
+                <a aria-label="Next" className="page-link">
                   <span aria-hidden="true">»</span>
                   <span className="sr-only">Next</span>
                 </a>

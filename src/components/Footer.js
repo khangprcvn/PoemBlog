@@ -28,27 +28,24 @@ const Footer = () => (
               <h4 className="h5">Let's be Friends</h4>
               <p className="social">
                 <a
-                  href="#"
                   data-animate-hover="pulse"
                   className="external facebook"
                 >
                   <i className="fab fa-facebook-f" />
                 </a>
                 <a
-                  href="#"
                   data-animate-hover="pulse"
                   className="external gplus"
                 >
                   <i className="fab fa-google-plus"></i>
                 </a>
                 <a
-                  href="#"
                   data-animate-hover="pulse"
                   className="external twitter"
                 >
                   <i className="fab fa-twitter" />
                 </a>
-                <a href="#" data-animate-hover="pulse" className="email">
+                <a data-animate-hover="pulse" className="email">
                   <i className="far fa-envelope" />
                 </a>
               </p>

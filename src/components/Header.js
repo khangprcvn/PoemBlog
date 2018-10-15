@@ -53,7 +53,6 @@ class Header extends Component {
                   <li className="nav-item dropdown">
                     <a
                       id="clientZone"
-                      href="#"
                       data-toggle="dropdown"
                       aria-haspopup="true"
                       aria-expanded="false"
@@ -76,7 +75,6 @@ class Header extends Component {
                   <li className="nav-item dropdown">
                     <a
                       id="pages"
-                      href="#"
                       data-toggle="dropdown"
                       aria-haspopup="true"
                       aria-expanded="false"
@@ -133,49 +131,49 @@ class Header extends Component {
           role="dialog"
           aria-labelledby="exampleModalLabel"
           aria-hidden="true"
-          class="modal fade"
+          className="modal fade"
         >
-          <div role="document" class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 id="exampleModalLabel" class="modal-title">
+          <div role="document" className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h4 id="exampleModalLabel" className="modal-title">
                   Customer Login
                 </h4>
                 <button
                   type="button"
                   data-dismiss="modal"
                   aria-label="Close"
-                  class="close"
+                  className="close"
                 >
                   <span aria-hidden="true">×</span>
                 </button>
               </div>
-              <div class="modal-body">
+              <div className="modal-body">
                 <form>
-                  <div class="form-group">
+                  <div className="form-group">
                     <input
                       id="email_modal"
                       type="text"
                       placeholder="Email"
-                      class="form-control"
+                      className="form-control"
                     />
                   </div>
-                  <div class="form-group">
+                  <div className="form-group">
                     <input
                       id="password_modal"
                       type="text"
                       placeholder="Password"
-                      class="form-control"
+                      className="form-control"
                     />
                   </div>
-                  <p class="text-center">
-                    <button type="button" class="btn btn-outline-white-primary">
-                      <i class="fa fa-sign-in" /> Log in
+                  <p className="text-center">
+                    <button type="button" className="btn btn-outline-white-primary">
+                      <i className="fa fa-sign-in" /> Log in
                     </button>
                   </p>
                 </form>
-                <p class="text-center text-muted">Not registered yet?</p>
-                <p class="text-center text-muted">
+                <p className="text-center text-muted">Not registered yet?</p>
+                <p className="text-center text-muted">
                   <a href="/register">
                     <strong>Register now</strong>
                   </a>

@@ -28,7 +28,6 @@ const Trending = () => (
           <div className="col-sm-12 col-md-2 col-lg-1">
             <div className="job__star">
               <a
-                href="#"
                 data-toggle="tooltip"
                 data-placement="top"
                 title="Save to favourites"
@@ -64,7 +63,6 @@ const Trending = () => (
           <div className="col-sm-12 col-md-2 col-lg-1">
             <div className="job__star">
               <a
-                href="#"
                 data-toggle="tooltip"
                 data-placement="top"
                 title="Save to favourites"
@@ -76,7 +74,7 @@ const Trending = () => (
           </div>
         </div>
       </div>
-      <div className="job-listing  ">
+      <div className="job-listing">
         <div className="row">
           <div className="col-md-12 col-lg-6">
             <div className="row">
@@ -100,7 +98,41 @@ const Trending = () => (
           <div className="col-sm-12 col-md-2 col-lg-1">
             <div className="job__star">
               <a
-                href="#"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Save to favourites"
+                className="job__star__link"
+              >
+                <i className="fa fa-star" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="job-listing">
+        <div className="row">
+          <div className="col-md-12 col-lg-6">
+            <div className="row">
+              <div className="col-2">
+                <img src={logo} alt="Ipsioou " className="img-fluid" />
+              </div>
+              <div className="col-10">
+                <h4 className="job__title">
+                  <a href="detail.html">Quê hương</a>
+                </h4>
+                {/* <p className="job__company">Ipsioou</p> */}
+              </div>
+            </div>
+          </div>
+          <div className="col-10 col-md-3 col-lg-2 ml-auto">
+            <i className="fa fa-heart" /> {' '} 11000 lượt xem
+          </div>
+          <div className="col-10 col-md-3 col-lg-3 ml-auto">
+            <p>Posted 5 days ago</p>
+          </div>
+          <div className="col-sm-12 col-md-2 col-lg-1">
+            <div className="job__star">
+              <a
                 data-toggle="tooltip"
                 data-placement="top"
                 title="Save to favourites"
